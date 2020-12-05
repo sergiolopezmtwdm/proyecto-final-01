@@ -1,8 +1,9 @@
 <header id="header">
     <div class="d-flex flex-column">
         <div class="profile">
-            <img src="assets/img/call.jpg" alt="" class="img-fluid rounded-circle">
-            <h1 class="text-light"><a href="index.html">Games MX</a></h1>
+            <!-- <img src="assets/img/call.jpg" alt="" class="img-fluid rounded-circle"> -->
+            <!-- <h1 class="text-light"><a href="index.html">Games MX</a></h1> -->
+            <h1 class="text-light"><a href="index.html"><span class="icon-Contenedor-Logo"></span></a></h1>
             <!--<div class="social-links mt-3 text-center">
           <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
           <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -14,9 +15,14 @@
         <nav class="nav-menu">
             <ul>
                 <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
-                <li><a href="#xbox"><i class="bx bx-user"></i> <span>Xbox</span></a></li>
-                <li><a href="#playstation"><i class="bx bx-file-blank"></i> <span>Play Station</span></a></li>
-                <li><a href="#pc"><i class="bx bx-book-content"></i>PC</a></li><br>
+                <!-- <li><a href="#xbox"><i class="bx bx-user"></i> <span>Xbox</span></a></li> -->
+                <li><a href="#xbox"><i class="icon-Contenedor-Xbox"></i> <span>Xbox</span></a></li>
+                <!-- <li><a href="#playstation"><i class="bx bx-file-blank"></i> <span>Play Station</span></a></li> -->
+                <li><a href="#playstation"><i class="icon-Contenedor-PS"></i> <span>Play Station</span></a></li>
+                <!-- <li><a href="#pc"><i class="bx bx-book-content"></i>PC</a></li><br> -->
+                <li><a href="#pc"><i class="icon-Contenedor-PC"></i>PC</a></li>
+                <li><a href="#nintendo"><i class="icon-Contenedor-Nintendo"></i>Nintendo</a></li>
+                <br>
                 <li *ngIf="isUserAuthenticated()"><a href="#perfil"><i class="bx bx-book-content"></i>Mi Perfil</a></li><br>
                 <button class="btn btn-primary w3-red" type="submit" value="Submit" *ngIf="isUserAuthenticated()"
                     style="width: 85%;">

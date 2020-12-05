@@ -20,6 +20,8 @@ import { PerfilComponent } from './components/sections/perfil/perfil.component';
 import { CarouselComponent } from './pages/componentes/carousel/carousel.component';
 import { PcComponent } from './pages/componentes/pc/pc.component';
 import { ComponentesComponent } from './pages/componentes/componentes.component';
+import { CarritoComponent } from './componentes/carrito/carrito.component';
+import { FavoritosComponent } from './componentes/favoritos/favoritos.component';
 
 export function tokenGetter() {
   return localStorage.getItem("jwt");
@@ -37,7 +39,9 @@ export function tokenGetter() {
     PerfilComponent,
     CarouselComponent,
     PcComponent,
-    ComponentesComponent
+    ComponentesComponent,
+    CarritoComponent,
+    FavoritosComponent
   ],
   imports: [
     BrowserModule,
